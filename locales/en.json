@@ -1,0 +1,355 @@
+{
+  "common": {
+    "brandName": "Ivybek",
+    "siteUrl": "https://ivybek.com",
+    "ogImage": "https://ivybek.com/img/og-cover.jpg",
+    "phone": "+998 55 588 59 59",
+    "phoneHref": "tel:+998555885959",
+    "phonePlaceholder": "+998 (00) 000 0000",
+    "email": "info@ivybek.com",
+    "emailHref": "mailto:info@ivybek.com",
+    "telegram": "@ivybek_info",
+    "telegramHref": "https://t.me/ivybeksupport",
+    "socialLinks": {
+      "youtube": "https://www.youtube.com/c/Ivybek",
+      "facebook": "https://www.facebook.com/ivybeksupport",
+      "instagram": "https://www.instagram.com/ivybeksupport",
+      "linkedin": "https://www.linkedin.com/company/ivybeksupport"
+    },
+    "socialLabels": {
+      "youtube": "Ivybek on YouTube",
+      "facebook": "Ivybek on Facebook",
+      "instagram": "Ivybek on Instagram",
+      "linkedin": "Ivybek on LinkedIn"
+    },
+    "alts": {
+      "logo": "Ivybek logo",
+      "innerHero": "Ivybek admissions programme preview",
+      "quotePortrait": "Ivybek founder portrait",
+      "partnerLogo": "Partner logo {number}",
+      "universityLogo": "University logo {number}",
+      "homeHero": "Ivybek admissions hero illustration",
+      "galleryImage": "Admissions programme gallery image {number}"
+    },
+    "actions": {
+      "downloadCv": "Download CV",
+      "consultation": "Go to consultation"
+    },
+    "aria": {
+      "call": "Call Ivybek",
+      "contactSupport": "Contact Ivybek support"
+    },
+    "twitterHandle": "@ivybek",
+    "languages": {
+      "en": "English",
+      "ru": "Russian",
+      "uz": "Uzbek"
+    }
+  },
+  "partners": "Partners",
+  "modules": "Our modules",
+  "about": "About us",
+  "resources": "Free resources",
+  "contact": "Contact us",
+  "login": "Login",
+  "hero": {
+    "title": "IVYBEK academy: Your Gateway To a Top-50 University",
+    "subtitle": "MIT, Imperial, Columbia, Georgetown, NYU, NUS: This is a small chunk of universities our students conquered.",
+    "freeDemo": "Call Us",
+    "howWorks": "How it works"
+  },
+  "partnersTitle": "We are trusted by leading companies",
+  "aboutComp": {
+    "title": "What Sets Us Apart - We don't merely handle college admissions; we teach students how to become scholars, researchers, global citizens, and leaders in their fields - all while retaining their core values",
+    "stats": [
+      {
+        "number": 100,
+        "label": "Improved"
+      },
+      {
+        "number": 2,
+        "label": "Skill Level"
+      },
+      {
+        "number": 1.82,
+        "label": "Creativity"
+      },
+      {
+        "number": 4.5,
+        "label": "Mentor Rating"
+      },
+      {
+        "number": 95,
+        "label": "Recommendations"
+      }
+    ],
+    "description": "When a student becomes genuinely exceptional, the application takes care of itself."
+  },
+  "team": {
+    "title": "Track Record - acceptances and placements",
+    "subtitle": "The strongest and most experienced mentors will assist you in obtaining quality education and mastering the field.",
+    "mentors": [
+      {
+        "name": "Muhammadulloh E.",
+        "role": "Software Engineer",
+        "experience": "17 yrs. experience",
+        "speciality": "Data Analytics",
+        "position": "Software Engineer Google, Formerly at Amazon, Formerly at Facebook"
+      },
+      {
+        "name": "Nodirxon S.",
+        "role": "Android Developer",
+        "experience": "9 yrs. experience",
+        "speciality": "Mobile Engineering",
+        "position": "Senior Android Engineer Amazon, Formerly at EPAM"
+      },
+      {
+        "name": "Baxtjon Ch.",
+        "role": "Backend Developer",
+        "experience": "8 yrs. experience",
+        "speciality": "Backend Systems",
+        "position": "Backend Engineer Meta, Formerly at Oracle"
+      },
+      {
+        "name": "Murodilla N.",
+        "role": "iOS Developer",
+        "experience": "10 yrs. experience",
+        "speciality": "iOS Development",
+        "position": "iOS Engineer Google, Formerly at Microsoft"
+      },
+      {
+        "name": "Abdulaziz Z.",
+        "role": "Software Engineer",
+        "experience": "11 yrs. experience",
+        "speciality": "Product Engineering",
+        "position": "Software Engineer Amazon, Formerly at Meta"
+      }
+    ]
+  },
+  "how": {
+    "title": "Our capabilities",
+    "steps": [
+      {
+        "title": "The Spike",
+        "description": "Top applicants stand out in one key area.Instead of many shallow activities, they pursue one or two with real depth and focus — enough to capture attention."
+      },
+      {
+        "title": "Intellectual Development",
+        "description": "Top universities want students who think seriously. We push students to read, write, discuss ideas, and develop genuine intellectual interests that come through clearly in interviews and essays."
+      },
+      {
+        "title": "Real Projects and Initiatives",
+        "description": "Our students build things that actually matter. Research projects, social initiatives, competitions, publications. Work that creates a record of real achievement before the application is ever written."
+      },
+      {
+        "title": "Essays and Communication",
+        "description": "A great essay comes from self-knowledge, not clever writing. We help students understand what makes them compelling and communicate it clearly."
+      },
+      {
+        "title": "Mentorship from Top University Students and FAOs (former admission officers)",
+        "description": "Every ivybek student works directly with mentors currently studying at leading universities around the world. These mentors have been through the process and know exactly what it takes."
+      }
+    ]
+  },
+  "quote": {
+    "text": "We built ivybek academy because we remember the confusion - the contradictory advice, the generic templates, the anxiety of not knowing if your application truly reflected you. We've guided hundreds through admissions. Now we're bringing that experience, alongside a big team with wealth of expertise in top-tier admissions, directly to students who deserve better than guesswork.",
+    "author": "Asadbek and Khusan",
+    "position": "Co-Founders at ivybek academy"
+  },
+  "services": {
+    "title": "Mentorship Services",
+    "description": "Our platform easily integrates with corporate and educational systems, creating a unified digital management ecosystem.",
+    "modules": [
+      {
+        "name": "Technical Mentorship"
+      },
+      {
+        "name": "Career Counseling"
+      },
+      {
+        "name": "Personalized Mentorship"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Testimonials from our graduates",
+    "description": "Before enrolling students in our beginner courses, we assess their English language, mathematics, and problem-solving skills.",
+    "seeAll": "See all",
+    "hide": "Hide",
+    "reviews": [
+      {
+        "name": "Sevara",
+        "feedback": "I joined the Essay Program, unsure if it could improve my writing. But through intense handwriting reflections and even a stand-up comedy challenge, the classes became the most transformative I’ve ever taken. I was taught that ‘writers catch the moments most people miss,’ pushing me to notice more, think deeper, and write in a new dimension. Now writing - once a struggle - has become my passion and a key part of my future studies"
+      },
+      {
+        "name": "Ozodbek",
+        "feedback": "After a painful wave of rejections, I joined Ivybek during my gap year. We explored Chekhov, Nabokov, and Kafka, producing 10,000 words of deep reflections. Each session taught me to turn small moments into meaningful ideas. That transformation rebuilt my application and led to my acceptance to Amherst College with a $403,000 full-ride scholarship—a dream I thought was gone."
+      },
+      {
+        "name": "Murod",
+        "feedback": "High scores and activities aren’t enough— how you present them matters. Ivybek became the foundation of my admissions journey. We wrote thousands of words of reflections, read widely, and refined every draft. Through our weekly meetings, we shaped my NYU Abu Dhabi application into a narrative admissions officers couldn’t ignore."
+      },
+      {
+        "name": "Jahongir",
+        "feedback": "I was academically strong but too focused on tests, becoming ‘standard’ myself. Levsha’s reminder—‘You are smart. You just have to show it!’—shifted everything. Over two months, inspired by thinkers like Plato and Chekhov, I wrote 100 pages of reflections that reshaped me from an A-level test-taker into a genuinely open-minded student. That growth led to acceptances to CMU-Q and GU-Q with a story that finally felt real."
+      },
+      {
+        "name": "Saidamirxon",
+        "feedback": "I had no idea my life was about to be divided into before and after. With Ivybek, I discovered far more than a roadmap to a top college. My mentors instilled in me the conviction that 'impossible' simply doesn't exist. Frankly, I arrived with virtually no extracurriculars, yet within months of our collective effort, my trajectory transformed entirely. I aced APs, secured a position at a presidential think-tank, became a research assistant to arguably Uzbekistan's foremost economist, and achieved a Guinness World Record"
+      },
+      {
+        "name": "Asila",
+        "feedback": "A year ago, I was a high schooler with dreams of studying abroad, overwhelmed by questions: How could I build meaningful extracurriculars? Would my application stand out? Ivybek changed everything. I secured a full-ride to TKS, got an internship at Silk Road Institute, did research with a Harvard postdoc, became a research assistant to tenured Yale professor, and more. Forty thousand words of reflection later, I finally saw myself clearly. Got extensive feedback on everything (essays, narratives, strategy). Ivybek fundamentally shifted how I understood top-tier admissions. They changed my life course. Moreover, Ivybek helped me crack the code on my whole story: connected dots I didn't know existed, availed in building narratives that actually work, edited essays that hit different. The strategies were next level. Everything finally clicked into place."
+      }
+    ]
+  },
+  "resourcesBlock": {
+    "title": "Free Resources",
+    "description": "This demonstrates our commitment to education and its application in real life. Through this program, we nurture ambitious students and guide them, providing a dynamic platform for them to enhance their knowledge and gain practical insights into the ever-evolving field of business intelligence.",
+    "items": [
+      {
+        "name": "Guides and university compilations"
+      },
+      {
+        "name": "Any other free tools or content"
+      }
+    ]
+  },
+  "form": {
+    "title": "Contact us",
+    "description": "Our team is ready to answer all your questions at a time that suits you.",
+    "fields": {
+      "name": "Your Name",
+      "email": "Phone number"
+    },
+    "warn": "By submitting your application, you agree to the privacy policy.",
+    "submit": "Submit",
+    "support": "For immediate contact"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What is IvyBek?",
+        "answer": "IvyBek is a comprehensive mentorship platform designed to guide ambitious students through the college admissions process, helping them build strong profiles and achieve their educational goals."
+      },
+      {
+        "question": "How does the mentorship program work?",
+        "answer": "Our mentorship program pairs students with experienced mentors who provide personalized guidance on building a strong profile, crafting compelling essays, and navigating the admissions process."
+      },
+      {
+        "question": "What kind of resources do you offer for free?",
+        "answer": "We offer a variety of free resources, including guides on university applications, YouTube podcast links, and other tools to help students prepare for college admissions."
+      },
+      {
+        "question": "How can I contact your support team?",
+        "answer": "You can contact our support team by filling out the contact form on our website or by reaching out to us directly through the provided contact information."
+      }
+    ]
+  },
+  "footer": {
+    "number": "Phone number",
+    "email": "Email address",
+    "address": "Physical address",
+    "addressValue": "Nest One Block C: 1A/1, Botir Zakirov st, Tashkent",
+    "social": "Follow us on social media",
+    "rights": "Ivybek. All rights reserved."
+  },
+  "stats": {
+    "title": "Statistics / metrics",
+    "subtitle": "ivybek offers tailored collaboration terms individually for each client",
+    "items": [
+      {
+        "metric": "15,000,000$",
+        "name": "Full Scholarships",
+        "desc": "Students have received full-tuition plus scholarships (no partial scholarships)"
+      },
+      {
+        "metric": "150+",
+        "name": "Alumni",
+        "desc": "We have helped applicants from Uzbekistan, the United States, Kazakhstan, Kyrgyzstan, Belarus, Ghana, Ethiopia, Tajikistan, Turkmenistan, Hungary, and so forth"
+      },
+      {
+        "metric": "19.8X",
+        "name": "Average ROI",
+        "desc": "Our students see major returns through stronger portfolio, sharper writing, and ultimately higher admission outcomes with signifcant scholarship amounts"
+      },
+      {
+        "metric": "60+",
+        "name": "Top-50 acceptances",
+        "desc": "Our results are informed by QS, Times Higher Education, and U.S. News - some of most legitimate global university rankings"
+      }
+    ]
+  },
+  "rest": {
+    "youtube_title": "Our YouTube channel",
+    "youtube_desc": "Before enrolling students in our beginner courses, we assess their English language, mathematics, and problem-solving skills.",
+    "youtube_link": "Subscribe",
+    "top": "Our acceptances"
+  },
+  "seo": {
+    "home": {
+      "title": "AI Powered Education Platform",
+      "description": "Ivybek mentors ambitious students with admissions strategy, academic guidance, and real-world projects to reach top universities.",
+      "ogTitle": "Ivybek | AI Powered Education Platform",
+      "imageAlt": "Ivybek - AI Powered Education Platform"
+    },
+    "admissions": {
+      "title": "Admissions Programme",
+      "description": "Admissions guidance programme to help ambitious students build strong applications, academic strategy, and real-world project experience.",
+      "ogTitle": "Ivybek | Admissions Programme",
+      "imageAlt": "Ivybek Admissions Programme",
+      "serviceType": "Admissions guidance programme",
+      "areaServed": "Worldwide"
+    }
+  },
+  "programme": {
+    "hero": {
+      "title": "Admissions Programme",
+      "subtitle": "We provide comprehensive support for students applying to top universities worldwide, guiding them through every step of the admissions process.",
+      "freeDemo": "Free demo",
+      "howWorks": "How it works"
+    },
+    "intro": {
+      "title": "Get into the university you’ve always dreamed of and build a future without limits",
+      "paragraphs": [
+        "We guide ambitious students through every step of the admissions journey — helping you craft a powerful academic and extracurricular profile, highlight your unique strengths, and confidently navigate applications to top universities. From strategy to acceptance, we make sure you stand out where it matters most.",
+        "We help ambitious students navigate the entire admissions journey with clarity and confidence — from building a strong, well-rounded profile to crafting compelling applications that capture attention and open doors to top universities worldwide."
+      ]
+    },
+    "offers": {
+      "title": "Our Offers",
+      "subtitle": "ivybek offers tailored collaboration terms individually for each client",
+      "items": [
+        {
+          "title": "Plan a Strategic Passion Project",
+          "description": "A great idea needs a plan. We work with your student to set clear goals, break the project into manageable steps, and create a realistic timeline that works with their schedule, ensuring their passion becomes a reality."
+        },
+        {
+          "title": "Craft the Activity List & Narrative",
+          "description": "Top universities want students who think seriously. We push students to read, write, discuss ideas, and develop genuine intellectual interests that come through clearly in interviews and essays."
+        },
+        {
+          "title": "Uncover Their Authentic Interest",
+          "description": "It starts with a conversation. We do not assign projects. We help your student identify a genuine curiosity and brainstorm real-world ways to explore it."
+        },
+        {
+          "title": "Plan a Strategic Passion Project",
+          "description": "A great idea needs a plan. We work with your student to set clear goals, break the project into manageable steps, and create a realistic timeline that works with their schedule, ensuring their passion becomes a reality."
+        }
+      ]
+    },
+    "services": {
+      "title": "Mentorship Services",
+      "description": "Our platform easily integrates with corporate and educational systems, creating a unified digital management ecosystem.",
+      "modules": [
+        {
+          "name": "Career Counseling"
+        },
+        {
+          "name": "Personalized Mentorship"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "common": {
+    "brandName": "Ivybek",
+    "siteUrl": "https://ivybek.com",
+    "ogImage": "https://ivybek.com/img/og-cover.jpg",
+    "phone": "+998 55 588 59 59",
+    "phoneHref": "tel:+998555885959",
+    "phonePlaceholder": "+998 (00) 000 0000",
+    "email": "info@ivybek.com",
+    "emailHref": "mailto:info@ivybek.com",
+    "telegram": "@ivybek_info",
+    "telegramHref": "https://t.me/ivybeksupport",
+    "socialLinks": {
+      "youtube": "https://www.youtube.com/c/Ivybek",
+      "facebook": "https://www.facebook.com/ivybeksupport",
+      "instagram": "https://www.instagram.com/ivybeksupport",
+      "linkedin": "https://www.linkedin.com/company/ivybeksupport"
+    },
+    "socialLabels": {
+      "youtube": "Ivybek YouTube’da",
+      "facebook": "Ivybek Facebook’da",
+      "instagram": "Ivybek Instagram’da",
+      "linkedin": "Ivybek LinkedIn’da"
+    },
+    "alts": {
+      "logo": "Ivybek logotipi",
+      "innerHero": "Ivybek qabul dasturi tasviri",
+      "quotePortrait": "Ivybek asoschisi portreti",
+      "partnerLogo": "Hamkor logotipi {number}",
+      "universityLogo": "Universitet logotipi {number}",
+      "homeHero": "Ivybek qabul bo‘yicha bosh sahifa illyustratsiyasi",
+      "galleryImage": "Qabul dasturi galereya tasviri {number}"
+    },
+    "actions": {
+      "downloadCv": "CV yuklab olish",
+      "consultation": "Konsultatsiyaga o‘tish"
+    },
+    "aria": {
+      "call": "Ivybekka qo‘ng‘iroq qilish",
+      "contactSupport": "Ivybek qo‘llab-quvvatlash jamoasi bilan bog‘lanish"
+    },
+    "twitterHandle": "@ivybek",
+    "languages": {
+      "en": "English",
+      "ru": "Russian",
+      "uz": "Uzbek"
+    }
+  },
+  "partners": "Hamkorlar",
+  "modules": "Bizning modullarimiz",
+  "about": "Biz haqimizda",
+  "resources": "Bepul resurslar",
+  "contact": "Biz bilan bog'laning",
+  "login": "Kirish",
+  "hero": {
+    "title": "Har doim orzu qilgan universitetga qabul oling va haqli bo'lgan kelajagingizni shakllantiring",
+    "subtitle": "Biz intiluvchan talabalarga qabul jarayonining har bir bosqichida — kuchli profil yaratishdan tortib qabul qilinishgacha — yo'l-yo'riq ko'rsatamiz.",
+    "freeDemo": "Bepul demo",
+    "howWorks": "Qanday ishlaydi"
+  },
+  "partnersTitle": "Yetakchi kompaniyalar bizga ishonadi",
+  "aboutComp": {
+    "title": "Bizni nima ajratib turadi - biz faqat oliy o'quv yurtlariga qabul qilish bilan shug'ullanmaymiz; biz talabalarga olim bo'lishni, taklif qilishni, sotishni va sun'iy intellekt loyihalarini ishlab chiqishni o'rgatamiz.",
+    "stats": [
+      {
+        "number": 100,
+        "label": "Takomillashtirildi"
+      },
+      {
+        "number": 2,
+        "label": "Mahorat darajasi"
+      },
+      {
+        "number": 1.82,
+        "label": "Ijodkorlik"
+      },
+      {
+        "number": 4.5,
+        "label": "Mentor bahosi"
+      },
+      {
+        "number": 95,
+        "label": "Tavsiyalar"
+      }
+    ],
+    "description": "Xodimlarning ishtirokini nazorat qilish, vazifalarni topshirish va joylashuvni real vaqtda kuzatish — zamonaviy korxonalar uchun mo'ljallangan bitta aqlli tizimda.",
+    "items": [
+      {
+        "title": "Innovatsion mahsulotlar yaratish",
+        "description": "Xodimlarning qatnashuvini nazorat qilish, vazifalarni topshirish va joylashuvni kuzatish"
+      },
+      {
+        "title": "Global bozorga chiqish",
+        "description": "Xodimlarning ishga kelishini nazorat qilish, vazifalarni topshirish va joylashuvni kuzatish"
+      },
+      {
+        "title": "Kuchli jamoani yaratish",
+        "description": "Xodimlarning ishga kelishini nazorat qilish, vazifalarni topshirish va joylashuvni kuzatish"
+      }
+    ]
+  },
+  "team": {
+    "title": "Yutuqlar tarixi - qabul va joylashuvlar",
+    "subtitle": "Eng kuchli va eng tajribali murabbiylar sizga sifatli ta'lim olish va sohaning ustasi bo'lishda yordam beradi.",
+    "mentors": [
+      {
+        "name": "Muhammadulloh E.",
+        "role": "Dasturiy ta'minot muhandisi",
+        "experience": "17 yillik tajriba",
+        "speciality": "Ma'lumotlar tahlili",
+        "position": "Dasturiy ta'minot muhandisi Google, ilgari Amazon va Facebookda"
+      },
+      {
+        "name": "Nodirxon S.",
+        "role": "Android Developer",
+        "experience": "9 yillik tajriba",
+        "speciality": "Mobil muhandislik",
+        "position": "Senior Android muhandisi Amazon, ilgari EPAMda"
+      },
+      {
+        "name": "Baxtjon Ch.",
+        "role": "Backend Developer",
+        "experience": "12 yillik tajriba",
+        "speciality": "Backend Systems",
+        "position": "Backend Engineer  Meta, Formerly at Oracle"
+      },
+      {
+        "name": "Murodilla N.",
+        "role": "iOS Developer",
+        "experience": "10 yillik tajriba",
+        "speciality": "iOS Development",
+        "position": "iOS Engineer  Google, Formerly at Microsoft"
+      },
+      {
+        "name": "Abdulaziz Z.",
+        "role": "Dasturiy ta'minot muhandisi",
+        "experience": "11 yillik tajriba",
+        "speciality": "Mahsulot muhandisligi",
+        "position": "Dasturiy ta'minot muhandisi  Amazon, ilgari Meta'da"
+      }
+    ]
+  },
+  "how": {
+    "title": "Qanday ishlaydi",
+    "subtitle": "ivybek offers tailored collaboration terms individually for each client",
+    "steps": [
+      {
+        "title": "The Spike",
+        "description": "Elita universitetlariga eng kuchli nomzodlar ma'lum bir sohada ajralib turadi. Ularning o'n beshta yuzaki faoliyati yo'q. Ularning bitta yoki ikkita narsa bor, ularni noodatiy chuqurlik va jiddiylik bilan o'rganishgan, bu esa qabul bo'limlari xodimlarining e'tiborini tortadi."
+      },
+      {
+        "title": "Intellektual rivojlanish",
+        "description": "Eng nufuzli universitetlar jiddiy fikr yurituvchi talabalarni xohlaydi. Biz talabalarni o'qishga, yozishga, g'oyalarni muhokama qilishga va suhbat hamda insholarda aniq namoyon bo'ladigan haqiqiy intellektual qiziqishlarni rivojlantirishga undaymiz."
+      },
+      {
+        "title": "Haqiqiy loyihalar va tashabbuslar",
+        "description": "Bizning talabalarimiz haqiqatan muhim bo'lgan narsalarni yaratadilar. Tadqiqot loyihalari, ijtimoiy tashabbuslar, tanlovlar, nashrlar. Ariza yozilishidan oldin haqiqiy yutuqlarni qayd etadigan ish."
+      },
+      {
+        "title": "Insho va muloqot",
+        "description": "Ajoyib insho o'zini anglashdan, na zukko yozuvdan kelib chiqadi. Biz talabalarga o'zlarini nimasi bilan jozibali qilishini tushunishga va buni aniq ifodalashga yordam beramiz."
+      },
+      {
+        "title": "Yetakchi universitet talabalari va FAOlardan mentorlik",
+        "description": "Har bir ivybek talabasi dunyoning yetakchi universitetlarida hozirda tahsil olayotgan mentorlar bilan bevosita ishlaydi. Bu mentorlar o'sha jarayondan o'tgan va nimalar kerakligini aniq biladi."
+      }
+    ]
+  },
+  "quote": {
+    "text": "IvyBek'ni yaratishda biz inson resurslarini boshqarishdagi qo'lda bajariladigan rutin ishlarni yo'q qilishni va kompaniyalarga qatnashuv, vazifalar hamda jamoa samaradorligini kuzatish uchun sodda vosita taqdim etishni maqsad qilgan edik.",
+    "author": "John Doe",
+    "position": "IvyBek bosh ijrochi direktori"
+  },
+  "testimonials": {
+    "title": "Bitiruvchilarimizning fikrlari",
+    "description": "Boshlang'ich kurslarimizga talabalarni qabul qilishdan oldin, biz ularning ingliz tili, matematika va muammolarni hal qilish ko'nikmalarini baholaymiz.",
+    "seeAll": "Hammasini ko'rish",
+    "hide": "Yashirish",
+    "reviews": [
+      {
+        "name": "Sevara",
+        "feedback": "Men Insho dasturiga qo'shildim, yozuv mahoratimni yaxshilay oladimi, deb ishonchim komil emas edi. Ammo intensiv qo'l yozuvi yozuvlari va hatto stand-up komediya tanlovi orqali bu darslar men ilgari olgan eng katta o'zgarishlarni berdi. Menga 'yozuvchilar ko'pchilik e'tibordan qochiradigan lahzalarni ushlaydi' deb o'rgatishdi, bu esa menga ko'proq kuzatishga, chuqurroq fikrlashga va yangi o'lchamda yozishga undadi. Endi yozish — ilgari qiyinchilik bo'lgan — mening ehtirosim va kelajakdagi o'qishimning muhim qismi bo'lib qoldi"
+      },
+      {
+        "name": "Ozodbek",
+        "feedback": "Qattiq rad javoblari to'lqinidan so'ng, tanaffus yilimda Ivybekka qo'shildim. Chexov, Nabokov va Kafkani o'rganib, chuqur mulohazalardan iborat 10 000 so'zli matn yaratdik. Har bir mashg'ulot kichik lahzalarni mazmunli g'oyalarga aylantirishni o'rgatdi. Bu o'zgarish arizamni qayta tikladi va menga Amherst kollejiga 403 000 dollarlik to'liq stipendiya bilan qabul qilinishimga olib keldi — bu men yo'qolgan deb o'ylagan orzum edi."
+      },
+      {
+        "name": "Murad",
+        "feedback": "Yuqori ballar va faoliyatlar yetarli emas — ularni qanday taqdim etishingiz muhim. Ivybek mening qabul jarayonimning poydevori bo'ldi. Biz minglab so'zli mulohazalar yozdik, keng ko'lamda o'qidik va har bir loyihani mukammallashtirdik. Haftalik uchrashuvlarimiz orqali NYU Abu-Dabi arizamni qabul bo'limi xodimlari e'tiboridan chetda qoldirolmaydigan hikoyaga aylantirdik."
+      },
+      {
+        "name": "Jahongir",
+        "feedback": "Men akademik jihatdan kuchli edim, lekin imtihonlarga haddan tashqari e'tibor qaratib, o'zim ham 'standart'ga aylanib qolgandim. Levsha'ning eslatmasi—'Sen aqllisan. Faqat buni ko'rsatishing kerak!' — hamma narsani o'zgartirdi. Ikki oy davomida Platon va Chexov kabi mutafakkirlardan ilhomlanib, men 100 sahifalik mulohazalar yozdim, bu meni A-darajali imtihon topshiruvchidan chinakam ochiq fikrli talabaga aylantirdi. Ushbu o'sish CMU-Q va GU-Qga nihoyat haqiqiy tuyulgan hikoya bilan qabul qilinishimga olib keldi."
+      },
+      {
+        "name": "Saidamirxon",
+        "feedback": "Hayotim oldin va keyin bo'lib ketishini bilmasdim. Ivybek bilan men nafaqat eng yaxshi kollejga yo'l xaritasini, balki undan ham ko'proq narsani kashf etdim. Murabbiylarim menga 'imkonsiz' degan tushuncha umuman mavjud emasligiga bo'lgan qat'iy ishonchni singdirishdi. Ochig'i, men deyarli hech qanday qo'shimcha faoliyatlarsiz kelgan edim, ammo bir necha oy ichida bizning umumiy sa'y-harakatlarimiz natijasida yo'nalishim butunlay o'zgardi. Men AP imtihonlarida a'lo baholar oldim, prezidentlik fikr markazida ish o'rnini qo'lga kiritdim, ehtimol O'zbekistonning eng nufuzli iqtisodchisiga tadqiqot yordamchisi bo'ldim va Ginnes dunyo rekordini o'rnatdim"
+      },
+      {
+        "name": "Asila",
+        "feedback": "Bir yil oldin men chet elda o'qish orzusidagi maktab o'quvchisi edim, savollar bilan to'lib-toshgan edim: Qanday qilib mazmunli qo'shimcha faoliyatlar qilaman? Arizam ajralib turadimi? Ivybek hamma narsani o'zgartirdi. Men TKSga to'liq stipendiya bilan qabul qilindim, Silk Road institutida stajirovka o'tadim, Garvard postdoktoranti bilan tadqiqot qildim, Yeyl universiteti doimiy professori yordamchisi bo'ldim va boshqalar. Qirq ming so'zli mulohaza yozgach, nihoyat o'zimni aniq ko'ra boshladim. Har bir narsa (insho, hikoya, strategiya) bo'yicha keng qamrovli fikr-mulohaza oldim. Ivybek yuqori darajadagi qabul jarayonini tushunishimni tubdan o'zgartirdi. Ular mening hayot yo'limni o'zgartirdi. Bundan tashqari, Ivybek butun hikoyamni ochish kodini topishimga yordam berdi: mavjudligidan bexabar bo'lgan nuqtalarni bog'ladi, haqiqatan ham ishlaydigan hikoyalarni yaratishda ko'maklashdi, turli taassurot qoldiradigan insholarni tahrirladi. Strategiyalar esa mutlaqo boshqa darajada edi. Nihoyat hammasi o'z o'rniga tushdi."
+      }
+    ]
+  },
+  "resourcesBlock": {
+    "title": "Bepul Resurslar",
+    "description": "Bu ta'lim va uning real hayotda qo'llanilishiga bo'lgan sadoqatimizni namoyish etadi. Ushbu dastur orqali biz intiluvchan talabalarni tarbiyalab, ularga yo'l-yo'riq ko'rsatamiz, ularga bilimlarini boyitish va doimiy rivojlanayotgan biznes-intellekt sohasida amaliy tushunchalarni olish uchun dinamik platforma taqdim etamiz.",
+    "items": [
+      {
+        "name": "Qo'llanmalar va universitet to'plamlari"
+      },
+      {
+        "name": "Boshqa har qanday bepul vositalar yoki kontent"
+      }
+    ]
+  },
+  "form": {
+    "title": "Biz bilan bog'laning",
+    "description": "Jamoamiz sizga qulay vaqtda barcha savollaringizga javob berishga tayyor.",
+    "fields": {
+      "name": "Sizning ismingiz",
+      "email": "Telefon raqami"
+    },
+    "warn": "Arizangizni topshirish orqali siz maxfiylik siyosatiga rozilik bildirasiz.",
+    "submit": "Yuborish",
+    "support": "Darhol bog'lanish uchun"
+  },
+  "faqs": {
+    "title": "Tez-tez so'raladigan savollar",
+    "items": [
+      {
+        "question": "IvyBek nima?",
+        "answer": "IvyBek — bu ambitsiyali talabalarga kollejga qabul jarayonida yo'l-yo'riq ko'rsatish, ularning kuchli profillarini yaratish va ta'lim maqsadlariga erishishda yordam berish uchun mo'ljallangan keng qamrovli murabbiylik platformasidir."
+      },
+      {
+        "question": "Mentorlik dasturi qanday ishlaydi?",
+        "answer": "Bizning mentorlik dasturimiz talabalarni tajribali mentorlar bilan juftlashtiradi, ular kuchli profil yaratish, jozibali insho yozish va qabul jarayonini boshqarish bo'yicha shaxsiy yo'riqnomalar beradi."
+      },
+      {
+        "question": "Qanday turdagi resurslarni bepul taklif qilasiz?",
+        "answer": "Biz universitetga ariza topshirish bo'yicha qo'llanmalar, YouTube podkast havolalari va talabalarga kollejga qabul jarayoniga tayyorlanishda yordam beradigan boshqa vositalar kabi turli bepul resurslarni taklif qilamiz."
+      },
+      {
+        "question": "Qo'llab-quvvatlash jamoangiz bilan qanday bog'lanishim mumkin?",
+        "answer": "Saytimizdagi aloqa formasini to'ldirib yoki berilgan aloqa ma'lumotlari orqali bevosita bog'lanishingiz mumkin."
+      }
+    ]
+  },
+  "footer": {
+    "number": "Telefon raqami",
+    "email": "Elektron pochta manzili",
+    "address": "Jismoniy manzil",
+    "addressValue": "Ustyurt Gaz Kimyoviy Kompleksi, Surgil maydoni, Qoraqalpoqiston Respublikasi, O'zbekiston",
+    "social": "Ijtimoiy tarmoqlarda bizni kuzating",
+    "rights": "Ivybek. Barcha huquqlar himoyalangan."
+  },
+  "stats": {
+    "title": "Statistika / metrikalar",
+    "subtitle": "Ivybek har bir mijoz uchun alohida hamkorlik shartlarini taklif qiladi",
+    "items": [
+      {
+        "metric": "15,000,000$",
+        "name": "O'sish",
+        "desc": "O'quv dasturi bo'yicha o'lchangan akademik yozuv mahoratining o'rtacha o'sishi."
+      },
+      {
+        "metric": "150+",
+        "name": "Mahorat",
+        "desc": "Har bir talaba ijodiy ifoda va akademik insho yozish usullarini muvaffaqiyatli yaxshiladi."
+      },
+      {
+        "metric": "19.8X",
+        "name": "Rivojlanish",
+        "desc": "Barcha ishtirokchilarda ijodiy fikrlash va hikoya tuzilmasi bo'yicha o'lchangan yaxshilanish."
+      },
+      {
+        "metric": "60+",
+        "name": "Reyting",
+        "desc": "Yetakchi mentorlarimizga ularning tajribasi, yo'l-yo'riqlari va ta'lim sifati uchun berilgan o'rtacha baho."
+      },
+      {
+        "metric": "95%",
+        "name": "Tavsiyalar",
+        "desc": "Ushbu dasturni tengdoshlariga ishonch bilan tavsiya qiladigan bitiruvchilar ulushi."
+      },
+      {
+        "metric": "100k+",
+        "name": "So'zlar",
+        "desc": "Har bir guruhda talabalar tomonidan yozilgan reflektiv va tahliliy matnlarning umumiy hajmi."
+      }
+    ]
+  },
+  "rest": {
+    "youtube_title": "Bizning YouTube kanalimiz",
+    "youtube_desc": "Boshlang'ich kurslarimizga talabalarni qabul qilishdan oldin, biz ularning ingliz tili, matematika va muammolarni hal qilish ko'nikmalarini baholaymiz.",
+    "youtube_link": "Obuna bo'lish",
+    "top": "Top 10 universitetlar"
+  },
+  "seo": {
+    "home": {
+      "title": "Sun’iy intellektga asoslangan ta’lim platformasi",
+      "description": "Ivybek ambitsiyali talabalarga qabul strategiyasi, akademik yo‘l-yo‘riq va real loyihalar orqali yetakchi universitetlarga kirishda mentorlik qiladi.",
+      "ogTitle": "Ivybek | Sun’iy intellektga asoslangan ta’lim platformasi",
+      "imageAlt": "Ivybek - sun’iy intellektga asoslangan ta’lim platformasi"
+    },
+    "admissions": {
+      "title": "Qabul dasturi",
+      "description": "Qabul bo‘yicha yo‘l-yo‘riq dasturi ambitsiyali talabalarga kuchli arizalar, akademik strategiya va real loyiha tajribasini shakllantirishda yordam beradi.",
+      "ogTitle": "Ivybek | Qabul dasturi",
+      "imageAlt": "Ivybek qabul dasturi",
+      "serviceType": "Qabul bo‘yicha yo‘l-yo‘riq dasturi",
+      "areaServed": "Butun dunyo"
+    }
+  },
+  "programme": {
+    "hero": {
+      "title": "Qabul dasturi",
+      "subtitle": "Biz dunyoning yetakchi universitetlariga hujjat topshirayotgan talabalarni qabul jarayonining har bir bosqichida to‘liq qo‘llab-quvvatlaymiz.",
+      "freeDemo": "Bepul demo",
+      "howWorks": "Qanday ishlaydi"
+    },
+    "intro": {
+      "title": "Orzuingizdagi universitetga kiring va cheksiz kelajak quring",
+      "paragraphs": [
+        "Biz ambitsiyali talabalarni qabul yo‘lining har bir bosqichida kuzatib boramiz: kuchli akademik va darsdan tashqari profil yaratish, o‘ziga xos kuchli tomonlarini ko‘rsatish va yetakchi universitetlarga arizalarni ishonch bilan topshirishda yordam beramiz. Strategiyadan qabulgacha, eng muhim joyda ajralib turishingizni ta’minlaymiz.",
+        "Biz ambitsiyali talabalarga butun qabul jarayonidan aniqlik va ishonch bilan o‘tishda yordam beramiz: kuchli va muvozanatli profil yaratishdan tortib, e’tibor tortadigan va dunyoning yetakchi universitetlariga eshik ochadigan arizalarni tayyorlashgacha."
+      ]
+    },
+    "offers": {
+      "title": "Takliflarimiz",
+      "subtitle": "Ivybek har bir mijoz uchun alohida hamkorlik shartlarini taklif qiladi",
+      "items": [
+        {
+          "title": "Strategik passion project rejasini tuzish",
+          "description": "Kuchli g‘oyaga aniq reja kerak. Biz talaba bilan birga maqsadlarni belgilaymiz, loyihani boshqariladigan bosqichlarga ajratamiz va uning jadvaliga mos real vaqt rejasini tuzamiz."
+        },
+        {
+          "title": "Faoliyatlar ro‘yxati va hikoyani shakllantirish",
+          "description": "Eng nufuzli universitetlar jiddiy fikrlaydigan talabalarni xohlaydi. Biz talabalarni o‘qish, yozish, g‘oyalarni muhokama qilish va suhbat hamda insholarda yaqqol ko‘rinadigan haqiqiy intellektual qiziqishlarni rivojlantirishga undaymiz."
+        },
+        {
+          "title": "Haqiqiy qiziqishni topish",
+          "description": "Hammasi suhbatdan boshlanadi. Biz loyihalarni tayinlamaymiz. Biz talabaga chinakam qiziqishni aniqlash va uni real hayotda o‘rganish yo‘llarini topishda yordam beramiz."
+        },
+        {
+          "title": "Strategik passion project rejasini tuzish",
+          "description": "Kuchli g‘oyaga aniq reja kerak. Biz talaba bilan birga maqsadlarni belgilaymiz, loyihani boshqariladigan bosqichlarga ajratamiz va uning jadvaliga mos real vaqt rejasini tuzamiz."
+        }
+      ]
+    },
+    "services": {
+      "title": "Mentorlik xizmatlari",
+      "description": "Bizning platformamiz korporativ va ta’lim tizimlari bilan oson integratsiya qilinib, yagona raqamli boshqaruv ekotizimini yaratadi.",
+      "modules": [
+        {
+          "name": "Kasbiy maslahat"
+        },
+        {
+          "name": "Shaxsiy mentorlik"
+        }
+      ]
+    }
+  },
+  "services": {
+    "title": "Murabbiylik xizmatlari",
+    "description": "Bizning platformamiz korporativ va ta'limiy tizimlarga oson integratsiya qilinadi, yagona raqamli boshqaruv ekotizimini yaratadi.",
+    "modules": [
+      {
+        "name": "Texnik mentorlik"
+      },
+      {
+        "name": "Kasbiy maslahat"
+      },
+      {
+        "name": "Shaxsiy mentorlik"
+      }
+    ]
+  }
+}

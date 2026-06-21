@@ -1,0 +1,63 @@
+:root {
+  --main-font: "Inter", sans-serif;
+
+  --border-light: #e2e8f03a;
+  --border-color: #e8ecf4;
+  --light-button: #f1f5f9;
+  --text-black: #020105;
+  --text-grey: #62748e;
+  --dark-blue: #09101f;
+  --dark-blue-50: #181145;
+  --blue: #2b7fff;
+  --light-blue: #2b7fff14;
+  --light-bg: #f8fafc;
+}
+
+body {
+  font-family: var(--main-font);
+  background: #fff;
+  color: var(--text-black);
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-inline: 20px !important;
+}
+
+.section-title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: -4%;
+  text-align: center;
+  color: var(--dark-blue-50);
+  margin-bottom: 16px;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  color: var(--text-grey);
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-inline: 16px !important;
+  }
+  .section-subtitle {
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 130%;
+  }
+  .section-title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 130%;
+    max-width: 100%;
+  }
+}
