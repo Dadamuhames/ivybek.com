@@ -41,7 +41,7 @@
                 >
                     <div class="testimonial-card">
                         <div class="testimonial-author">
-                            <NuxtImg
+                            <img
                                 :src="testimonial.image || '/img/default.webp'"
                                 :alt="testimonial.name"
                                 class="author-image"
