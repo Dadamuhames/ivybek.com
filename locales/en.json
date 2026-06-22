@@ -51,7 +51,7 @@
   "about": "About us",
   "resources": "Free resources",
   "contact": "Contact us",
-  "login": "Login",
+  "login": "Call Us",
   "hero": {
     "title": "IVYBEK academy: Your Gateway To a Top-50 University",
     "subtitle": "MIT, Imperial, Columbia, Georgetown, NYU, NUS: This is a small chunk of universities our students conquered.",
@@ -178,28 +178,24 @@
     "hide": "Hide",
     "reviews": [
       {
-        "name": "Sevara",
-        "feedback": "I joined the Essay Program, unsure if it could improve my writing. But through intense handwriting reflections and even a stand-up comedy challenge, the classes became the most transformative I’ve ever taken. I was taught that ‘writers catch the moments most people miss,’ pushing me to notice more, think deeper, and write in a new dimension. Now writing - once a struggle - has become my passion and a key part of my future studies"
+        "name": "Rasulbek Artikboyev",
+        "feedback": "When I came to IVYBEK in my gap year, I was not sure. I hestiated because I didn't know if my investment would pay off. But I'd noticed: my peers who’d got in had studied in an admissions program. So I joined IVYBEK Academy. Using the outreach strategies from the lessons, I landed internships at CERR—Uzbekistan's leading think tank—and YESU. Then I learned how to cold-email profs. So I began doing research with a PhD from Georgetown. Now I've achieved my dream: full-ride from Georgetown Q and BYU–Idaho in the United States of America.",
+        "university": "Georgetown University in Qatar"
       },
       {
-        "name": "Ozodbek",
-        "feedback": "After a painful wave of rejections, I joined Ivybek during my gap year. We explored Chekhov, Nabokov, and Kafka, producing 10,000 words of deep reflections. Each session taught me to turn small moments into meaningful ideas. That transformation rebuilt my application and led to my acceptance to Amherst College with a $403,000 full-ride scholarship—a dream I thought was gone."
+        "name": "Baxtiyor Babadjanov",
+        "feedback": "I got into UToronto, #1 uni in Canada. What I liked most about the IVYBEK Admissions Program was the push. Individual consultations were literal reality checks. Mentor’s harsh yet honest feedback, mixed with fines imposed by Levsha (levsha) for missed tasks, made it work harder week by week. But rather soon enough, I was spending mornings at the archive as an assistant to Johns Hopkins Uni Prof, afternoons at my internship, and evenings writing my research paper - a schedule I wouldn’t have believed was mine just a few months earlier.",
+        "university": "University of Toronto"
       },
       {
-        "name": "Murod",
-        "feedback": "High scores and activities aren’t enough— how you present them matters. Ivybek became the foundation of my admissions journey. We wrote thousands of words of reflections, read widely, and refined every draft. Through our weekly meetings, we shaped my NYU Abu Dhabi application into a narrative admissions officers couldn’t ignore."
+        "name": "Akmaljon Kholmirzayev",
+        "feedback": "On day one, Asadbek (Levsha) assigned 3 500+ word reflections: impossible-seeming for an ALWIUT who'd only written IELTS essays. I finished at 1am, and the next assignment was already waiting. Since then, IVYBEK team never stopped pushing us. These results came through sleepless nights and long hours of prep. IVYBEK's writing techniques, in-depth explanations, and extracurricular guidance built my app from scratch. With them, I wrote my first research paper, joined a startup, raised investment, and scaled my projects across regions.",
+        "university": "Chinese University of Hong Kong"
       },
       {
-        "name": "Jahongir",
-        "feedback": "I was academically strong but too focused on tests, becoming ‘standard’ myself. Levsha’s reminder—‘You are smart. You just have to show it!’—shifted everything. Over two months, inspired by thinkers like Plato and Chekhov, I wrote 100 pages of reflections that reshaped me from an A-level test-taker into a genuinely open-minded student. That growth led to acceptances to CMU-Q and GU-Q with a story that finally felt real."
-      },
-      {
-        "name": "Saidamirxon",
-        "feedback": "I had no idea my life was about to be divided into before and after. With Ivybek, I discovered far more than a roadmap to a top college. My mentors instilled in me the conviction that 'impossible' simply doesn't exist. Frankly, I arrived with virtually no extracurriculars, yet within months of our collective effort, my trajectory transformed entirely. I aced APs, secured a position at a presidential think-tank, became a research assistant to arguably Uzbekistan's foremost economist, and achieved a Guinness World Record"
-      },
-      {
-        "name": "Asila",
-        "feedback": "A year ago, I was a high schooler with dreams of studying abroad, overwhelmed by questions: How could I build meaningful extracurriculars? Would my application stand out? Ivybek changed everything. I secured a full-ride to TKS, got an internship at Silk Road Institute, did research with a Harvard postdoc, became a research assistant to tenured Yale professor, and more. Forty thousand words of reflection later, I finally saw myself clearly. Got extensive feedback on everything (essays, narratives, strategy). Ivybek fundamentally shifted how I understood top-tier admissions. They changed my life course. Moreover, Ivybek helped me crack the code on my whole story: connected dots I didn't know existed, availed in building narratives that actually work, edited essays that hit different. The strategies were next level. Everything finally clicked into place."
+        "name": "Botirjon Kholmatov",
+        "feedback": "My name is Botirjon Xolmatov, and I was admitted to University College London, the 8th-ranked university in the world. Last year, questions like ‘What even is a portfolio? How do I do research? Which universities should I even apply to?’ used to bother me. After joining Ivybek Academy, I landed an internship, started doing research with leading professors in Uzbekistan, and started writing my essays. Our 6 months of hard work bore fruit. I won a 100% grant to my dream university, UCL. Ivybek’s team played a huge role in achieving this success. I recommend Ivybek Academy to you all too.",
+        "university": "University College London"
       }
     ]
   },

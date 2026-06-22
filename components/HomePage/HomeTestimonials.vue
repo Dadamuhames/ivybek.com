@@ -14,6 +14,7 @@
                 :slides-per-view="1"
                 :space-between="16"
                 :speed="1000"
+                :loop="true"
                 :autoplay="{
                     delay: 2500,
                     disableOnInteraction: false,
@@ -56,10 +57,10 @@
                                     {{ testimonial.name }}
                                 </p>
                                 <p
-                                    v-if="testimonial.title"
+                                    v-if="testimonial.university"
                                     class="author-title"
                                 >
-                                    {{ testimonial.title }}
+                                    {{ testimonial.university }}
                                 </p>
                             </div>
                         </div>
@@ -176,11 +177,9 @@ const testimonials = computed(() => {
 
         return {
             name: review?.name ?? "",
-            title: "",
+            university: review?.university ?? "",
             text: review?.feedback ?? "",
-            rating: assets.rating,
             image: assets.image,
-            link: assets.link,
         };
     });
 });
