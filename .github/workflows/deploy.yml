@@ -10,49 +10,37 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: read
-      packages: write
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set variables
+      - name: Set deployment directory
         run: |
           if [ "${GITHUB_REF_NAME}" = "master" ]; then
-            echo "IMAGE_TAG=latest" >> $GITHUB_ENV
-            echo "DEPLOY_DIR=/var/www/ivybek/ivybek.com/prod" >> $GITHUB_ENV
+            echo "DEPLOY_DIR=/var/www/ivybek/ivybek.com/prod/dist" >> $GITHUB_ENV
           else
-            echo "IMAGE_TAG=dev" >> $GITHUB_ENV
-            echo "DEPLOY_DIR=/var/www/ivybek/ivybek.com/dev" >> $GITHUB_ENV
+            echo "DEPLOY_DIR=/var/www/ivybek/ivybek.com/dev/dist" >> $GITHUB_ENV
           fi
 
-      - name: Login to GHCR
-        run: |
-          echo "${{ secrets.GHCR_TOKEN }}" | docker login ghcr.io \
-            -u Dadamuhames \
-            --password-stdin
-
-      - name: Build and push image
-        run: |
-          docker build -t ghcr.io/dadamuhames/ivybek.com:${IMAGE_TAG} .
-          docker push ghcr.io/dadamuhames/ivybek.com:${IMAGE_TAG}
-
-      - name: Deploy via SSH
-        uses: appleboy/ssh-action@v1.0.3
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          host: ${{ secrets.VPS_HOST }}
-          username: ${{ secrets.VPS_USER }}
-          key: ${{ secrets.VPS_SSH_KEY }}
-          port: 2222
-          envs: GHCR_TOKEN
-          script: |
-            set -e
-            echo "$GHCR_TOKEN" | docker login ghcr.io -u Dadamuhames --password-stdin
-            cd ${{ env.DEPLOY_DIR }}
-            docker compose pull --quiet
-            docker compose up -d --force-recreate
-            docker image prune -f
-        env:
-          GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate static site
+        run: npm run generate
+
+      - name: Deploy via rsync
+        uses: burnett01/rsync-deployments@7.0.2
+        with:
+          switches: -avzr --delete
+          path: .output/public/
+          remote_path: ${{ env.DEPLOY_DIR }}/
+          remote_host: ${{ secrets.VPS_HOST }}
+          remote_user: ${{ secrets.VPS_USER }}
+          remote_key: ${{ secrets.VPS_SSH_KEY }}
+          remote_port: 2222
