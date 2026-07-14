@@ -140,6 +140,10 @@
       }
     ]
   },
+  "mentors": {
+    "title": "Наставники",
+    "subtitle": "Самые сильные и опытные наставники помогут вам получить качественное образование и освоить эту область."
+  },
   "how": {
     "title": "Как это работает",
     "subtitle": "ivybek offers tailored collaboration terms individually for each client",

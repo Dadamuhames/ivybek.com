@@ -140,6 +140,10 @@
       }
     ]
   },
+  "mentors": {
+    "title": "Mentorlar",
+    "subtitle": "Eng kuchli va eng tajribali murabbiylar sizga sifatli ta'lim olish va sohaning ustasi bo'lishda yordam beradi."
+  },
   "how": {
     "title": "Qanday ishlaydi",
     "subtitle": "ivybek offers tailored collaboration terms individually for each client",

@@ -199,7 +199,7 @@
                     </div> -->
 
                     <a
-                        href="https://ivibek.vercel.app"
+                        href="https://student.ivibek.com"
                         target="_blank"
                         class="mobile-login"
                         @click="closeMobileMenu"

@@ -1,12 +1,18 @@
 <template>
-    <section class="home-team">
+    <section
+        class="home-team"
+        :class="{ 'has-mentor-actions': showMentorActions }"
+    >
         <div class="container">
             <div class="top">
                 <h4 class="title section-title">
                     {{ teamData.title }}
                 </h4>
             </div>
-            <div class="bottom">
+            <div
+                class="bottom"
+                :class="{ 'tabs-right': tabsPosition === 'right' }"
+            >
                 <div class="tabs">
                     <button
                         v-for="(mentor, index) in mentors"
@@ -40,94 +46,105 @@
                                 decoding="async"
                             />
                         </div>
-                        <div class="image-content">
-                            <div class="content-socials">
-                                <a
-                                    :href="activeMentor.socials.linkedin"
-                                    class="social"
-                                    target="_blank"
-                                >
-                                    <Icon name="mdi:linkedin" />
-                                </a>
-                                <a
-                                    :href="activeMentor.socials.instagram"
-                                    class="social"
-                                    target="_blank"
-                                >
-                                    <Icon name="mdi:instagram" />
-                                </a>
-                            </div>
-                            <div class="content-address">
-                                <a :href="`mailto:${activeMentor.email}`">
-                                    <Icon
-                                        name="fluent:mail-unread-28-regular"
-                                    />
-                                    {{ activeMentor.email }}</a
-                                >
-                            </div>
-                            <div class="content-tags">
-                                <span class="tag">{{
-                                    activeMentor.experience
-                                }}</span>
-                                <span class="tag">{{
-                                    activeMentor.speciality
-                                }}</span>
-                            </div>
-                        </div>
+                        <div class="image-content"></div>
                     </div>
 
                     <div class="content-content">
                         <div>
                             <div class="content-info">
                                 <h3 class="name">{{ activeMentor.name }}</h3>
-                                <p class="position">
+                                <p
+                                    class="position"
+                                    v-if="activeMentor.position"
+                                >
                                     {{ activeMentor.position }}
                                 </p>
                             </div>
                         </div>
                         <div>
-                            <div class="content-bottom">
-                                <div class="content-companies">
-                                    <div
-                                        class="company"
-                                        v-for="company in activeMentor.companies"
-                                        :key="company.alt"
+                            <div class="content-meta">
+                                <div v-if="hasSocials" class="content-socials">
+                                    <a
+                                        v-if="activeMentor.socials.linkedin"
+                                        :href="activeMentor.socials.linkedin"
+                                        class="social"
+                                        target="_blank"
                                     >
+                                        <Icon name="mdi:linkedin" />
+                                    </a>
+                                    <a
+                                        v-if="activeMentor.socials.instagram"
+                                        :href="
+                                            getSocialHref(
+                                                'instagram',
+                                                activeMentor.socials.instagram,
+                                            )
+                                        "
+                                        class="social"
+                                        target="_blank"
+                                    >
+                                        <Icon name="mdi:instagram" />
+                                    </a>
+                                    <a
+                                        v-if="activeMentor.socials.telegram"
+                                        :href="
+                                            getSocialHref(
+                                                'telegram',
+                                                activeMentor.socials.telegram,
+                                            )
+                                        "
+                                        class="social"
+                                        target="_blank"
+                                    >
+                                        <Icon name="mdi:telegram" />
+                                    </a>
+                                </div>
+                                <div
+                                    v-if="showMentorActions"
+                                    class="content-address"
+                                >
+                                    <a :href="`mailto:${activeMentor.email}`">
+                                        <Icon
+                                            name="fluent:mail-unread-28-regular"
+                                        />
+                                        {{ activeMentor.email }}</a
+                                    >
+                                </div>
+                                <div class="content-tags">
+                                    <span
+                                        class="tag"
+                                        v-if="activeMentor.experience"
+                                        >{{ activeMentor.experience }}</span
+                                    >
+                                    <span
+                                        class="tag"
+                                        v-if="activeMentor.speciality"
+                                        >{{ activeMentor.speciality }}</span
+                                    >
+                                </div>
+                            </div>
+                            <div v-if="hasActionBlocks" class="content-bottom">
+                                <div
+                                    v-if="activeMentor.university"
+                                    class="content-companies"
+                                >
+                                    <div class="university-logo">
                                         <img
                                             :src="
-                                                company.src ||
+                                                activeMentor.university.src ||
                                                 '/img/default.webp'
                                             "
-                                            :alt="company.alt"
+                                            :alt="activeMentor.university.alt"
                                             loading="lazy"
                                             decoding="async"
                                         />
-                                        <p>
-                                            {{ company.name }}
-                                        </p>
                                     </div>
                                 </div>
-                                <div class="content-files">
-                                    <a
-                                        v-for="file in activeMentor.files"
-                                        :key="file.src"
-                                        :href="file.src"
-                                        class="file"
-                                        download
-                                    >
-                                        <div class="file-top">
-                                            <Icon
-                                                name="streamline-plump-color:file-check-alternate-flat"
-                                            />
-                                            <div class="download-icon">
-                                                <Icon name="lucide:download" />
-                                            </div>
-                                        </div>
-                                        {{ commonData.actions.downloadCv }}
-                                    </a>
-                                </div>
                             </div>
-                            <button class="consultation">
+                            <button
+                                v-if="showMentorActions"
+                                class="consultation"
+                            >
                                 {{ commonData.actions.consultation }}
                                 <Icon name="lucide:arrow-right" />
                             </button>
@@ -141,12 +158,31 @@
 
 <script setup>
 import en from "@/locales/en.json";
-import teamTabsData from "@/data/home-team-tabs.json";
+import defaultTeamTabsData from "@/data/home-team-tabs.json";
+
+const props = defineProps({
+    sectionKey: {
+        type: String,
+        default: "team",
+    },
+    tabsData: {
+        type: Object,
+        default: () => defaultTeamTabsData,
+    },
+    showMentorActions: {
+        type: Boolean,
+        default: false,
+    },
+    tabsPosition: {
+        type: String,
+        default: "left",
+    },
+});
 
 const { currentLocaleData, selectedLanguage } = useLocaleData();
 
 const teamData = computed(() => {
-    return currentLocaleData.value.team ?? en.team;
+    return currentLocaleData.value[props.sectionKey] ?? en[props.sectionKey];
 });
 
 const commonData = computed(() => {
@@ -166,7 +202,7 @@ const commonData = computed(() => {
 });
 
 const mentors = computed(() => {
-    const teamTabs = teamTabsData ?? {};
+    const teamTabs = props.tabsData ?? {};
     const defaultLocale = teamTabs.defaultLocale ?? "en";
     const teamMentors = Array.isArray(teamTabs.mentors) ? teamTabs.mentors : [];
 
@@ -187,7 +223,7 @@ const mentors = computed(() => {
             image: mentor.image ?? "/img/default.webp",
             email: mentor.email ?? commonData.value.email,
             socials: mentor.socials ?? {},
-            companies: mentor.companies ?? [],
+            university: mentor.university ?? mentor.companies?.[0] ?? null,
             files: mentor.files ?? [],
         };
     });
@@ -198,6 +234,42 @@ const activeTab = ref(0);
 const activeMentor = computed(
     () => mentors.value[activeTab.value] ?? mentors.value[0],
 );
+
+const hasActionBlocks = computed(() => {
+    const mentor = activeMentor.value;
+
+    if (!mentor) {
+        return false;
+    }
+
+    return Boolean(mentor.university);
+});
+
+const hasSocials = computed(() => {
+    const socials = activeMentor.value?.socials ?? {};
+
+    return Boolean(socials.linkedin || socials.instagram || socials.telegram);
+});
+
+const getSocialHref = (network, value) => {
+    if (!value) {
+        return "#";
+    }
+
+    if (value.startsWith("http") || value.startsWith("#")) {
+        return value;
+    }
+
+    if (network === "telegram") {
+        return `${value.replace("@", "")}`;
+    }
+
+    if (network === "instagram") {
+        return `${value.replace("@", "")}`;
+    }
+
+    return value;
+};
 
 watch(
     mentors,
@@ -224,16 +296,27 @@ watch(
     padding: 80px 0px;
 }
 .bottom {
-    max-width: 1104px;
+    max-width: 1280px;
     margin: 44px auto 0 auto;
     display: grid;
     grid-template-columns: 280px 1fr;
     gap: 40px;
+    height: 500px;
+}
+.bottom.tabs-right {
+    grid-template-columns: 1fr 280px;
+}
+.bottom.tabs-right .tabs {
+    order: 2;
+}
+.bottom.tabs-right .content {
+    order: 1;
 }
 .tabs {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    overflow: auto;
 }
 .tab {
     display: grid;
@@ -275,7 +358,7 @@ watch(
     border-radius: 16px;
     padding: 24px;
     display: grid;
-    grid-template-columns: 340px 1fr;
+    grid-template-columns: 380px 1fr;
     gap: 24px;
     position: relative;
 }
@@ -309,19 +392,27 @@ watch(
     flex-direction: column;
     justify-content: space-between;
 }
+.content-meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 12px;
+}
 .content-tags {
     display: flex;
     align-items: center;
     gap: 8px;
+    flex-wrap: wrap;
 }
 .tag {
     padding: 8px 12px;
     border-radius: 12px;
     font-size: 14px;
-    background: #ffffff29;
-    border: 1px solid #f1f5f929;
-    backdrop-filter: blur(8px);
-    color: white;
+    background: #f6f9ff;
+    border: 1px solid #e5efff;
+    color: var(--dark-blue);
+    max-width: 100%;
 }
 .content-info {
     margin-bottom: 24px;
@@ -351,13 +442,12 @@ watch(
 .content-socials {
     display: flex;
     gap: 8px;
-    margin-bottom: 8px;
+    flex-wrap: wrap;
 }
 .social {
-    background: #ffffff29;
-    border: 1px solid #f1f5f929;
-    backdrop-filter: blur(8px);
-    color: white;
+    background: #f6f9ff;
+    border: 1px solid #e5efff;
+    color: var(--dark-blue);
     width: 38px;
     height: 38px;
     display: flex;
@@ -372,11 +462,9 @@ watch(
     color: white;
 }
 .content-address {
-    margin-bottom: 8px;
-    background: #ffffff29;
-    border: 1px solid #f1f5f929;
-    backdrop-filter: blur(8px);
-    color: white;
+    background: #f6f9ff;
+    border: 1px solid #e5efff;
+    color: var(--dark-blue);
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -399,10 +487,12 @@ watch(
 }
 .content-bottom {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     gap: 8px;
 }
-.company,
+.content-companies {
+    min-width: 0;
+}
 .file {
     border: 1px solid #e5efff;
     background: #fafcff;
@@ -413,6 +503,12 @@ watch(
     justify-content: space-between;
     height: 138px;
 }
+.university-logo {
+    min-height: 138px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .file-top {
     display: flex;
     align-items: center;
@@ -422,10 +518,16 @@ watch(
 .file-top span {
     font-size: 24px;
 }
-.company img {
-    max-width: 100px;
-    height: 24px;
+.university-logo img {
+    max-width: 360px;
+    width: 100%;
+    height: 104px;
     object-fit: contain;
+    object-position: center;
+}
+.has-mentor-actions .university-logo img {
+    max-width: 360px;
+    height: 104px;
 }
 .consultation {
     width: 100%;
@@ -451,8 +553,12 @@ watch(
         gap: 32px;
     }
 
+    .bottom.tabs-right {
+        grid-template-columns: 1fr 240px;
+    }
+
     .content {
-        grid-template-columns: 300px 1fr;
+        grid-template-columns: 320px 1fr;
     }
 
     .content-img {

@@ -13,6 +13,14 @@
         <section id="team">
             <HomeTeam />
         </section>
+        <section id="mentors">
+            <HomeTeam
+                section-key="mentors"
+                :tabs-data="homeMentorsTabs"
+                show-mentor-actions
+                tabs-position="right"
+            />
+        </section>
         <section id="how">
             <HomeHow />
         </section>
@@ -59,6 +67,7 @@ import HomeForm from "~/components/HomePage/HomeForm.vue";
 import HomeFAQ from "~/components/HomePage/HomeFAQ.vue";
 import HomeStats from "~/components/HomePage/HomeStats.vue";
 import en from "@/locales/en.json";
+import homeMentorsTabs from "@/data/home-mentors-tabs.json";
 
 const { selectedLanguage, currentLocaleData } = useLocaleData();
 const route = useRoute();

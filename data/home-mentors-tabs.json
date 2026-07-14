@@ -1,0 +1,77 @@
+{
+  "defaultLocale": "en",
+  "mentors": [
+    {
+      "id": "jamshidbek",
+      "image": "/img/mentors/mentor1.jpg",
+      "email": "j.izzatullayev4281@gmail.com",
+      "socials": {
+        "telegram": "https://t.me/JamshidbekIzzatulloh"
+      },
+      "files": [
+        {
+          "src": "/files/mentor1.pdf"
+        }
+      ],
+      "translations": {
+        "en": {
+          "name": "Jamshidbek",
+          "role": "Vanderbilt University",
+          "speciality": "Cognitive Studies",
+          "position": "Good part of the day. I’m Jamshidbek from Vanderbilt University, studying Cognitive Studies and planning to double major in Child Development or Data Science. I’m excited to start the first part of the Admission Program with you. Our very first session is today at 8pm sharp. See you all with cameras on!"
+        },
+        "ru": {
+          "name": "Мухаммадуллох Э.",
+          "role": "Инженер-программист",
+          "experience": "17 лет опыта",
+          "speciality": "Аналитика данных",
+          "position": "Инженер-программист в Google, ранее работал в Amazon, ранее работал в Facebook"
+        },
+        "uz": {
+          "name": "Muhammadulloh E.",
+          "role": "Dasturiy ta'minot muhandisi",
+          "experience": "17 yillik tajriba",
+          "speciality": "Ma'lumotlar tahlili",
+          "position": "Dasturiy ta'minot muhandisi Google, ilgari Amazon va Facebookda"
+        }
+      },
+      "university": {
+        "src": "/img/mentor-unis/Vanderbilt-University-Logo.png",
+        "alt": "Vanderbilt University",
+        "name": "Vanderbilt University"
+      }
+    },
+    {
+      "id": "olimjon",
+      "image": "/img/mentors/mentor3.jpg",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/olimjon-uvayzov-9a085332b/"
+      },
+      "translations": {
+        "en": {
+          "name": "Olimjon",
+          "role": "HKUST",
+          "speciality": "",
+          "position": "Freshman at HKUST with full-ride scholarship\nSAT 1530 | IELTS 8.0\nCompleted competitive international programs: Lumiere Research Program, LaunchX, Stanford Daily Workshop, Pioneer Academics\nPublished author, \"Uzbeksitan's White Gold\" Stanford Daily Journal"
+        },
+        "ru": {
+          "name": "Мухаммадуллох Э.",
+          "role": "Инженер-программист",
+          "experience": "17 лет опыта",
+          "speciality": "Аналитика данных",
+          "position": "Инженер-программист в Google, ранее работал в Amazon, ранее работал в Facebook"
+        },
+        "uz": {
+          "name": "Muhammadulloh E.",
+          "role": "Dasturiy ta'minot muhandisi",
+          "experience": "17 yillik tajriba",
+          "speciality": "Ma'lumotlar tahlili",
+          "position": "Dasturiy ta'minot muhandisi Google, ilgari Amazon va Facebookda"
+        }
+      },
+      "university": {
+        "src": "/img/universities/HKU.png"
+      }
+    }
+  ]
+}

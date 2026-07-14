@@ -4,30 +4,16 @@
     {
       "id": "muhammadulloh-e",
       "image": "/img/students/student1.jpg",
-      "email": "info@ivybek.com",
       "socials": {
-        "linkedin": "#",
-        "instagram": "#"
+        "linkedin": "https://www.linkedin.com/in/asilbeksunnatov",
+        "instagram": "https://instagram.com/sunnatov.asilbek"
       },
-      "companies": [
-        {
-          "src": "/img/facebook.png",
-          "alt": "Facebook",
-          "name": "Facebook"
-        }
-      ],
-      "files": [
-        {
-          "src": "/files/mentor1.pdf"
-        }
-      ],
       "translations": {
         "en": {
-          "name": "Muhammadulloh E.",
-          "role": "Software Engineer",
-          "experience": "17 yrs. experience",
-          "speciality": "Data Analytics",
-          "position": "Software Engineer Google, Formerly at Amazon, Formerly at Facebook"
+          "name": "Asilbek Sunnatov",
+          "role": "MIT",
+          "speciality": "Computer Science",
+          "position": ""
         },
         "ru": {
           "name": "Мухаммадуллох Э.",
@@ -43,79 +29,53 @@
           "speciality": "Ma'lumotlar tahlili",
           "position": "Dasturiy ta'minot muhandisi Google, ilgari Amazon va Facebookda"
         }
+      },
+      "university": {
+        "src": "/img/universities/mit.png"
       }
     },
     {
       "id": "nodirxon-s",
-      "image": "/img/person-2.jpg",
-      "email": "info@ivybek.com",
+      "image": "/img/students/student2.jpg",
       "socials": {
-        "linkedin": "#",
-        "instagram": "#"
+        "instagram": "https://instagram.com/rasulartikbayev/"
       },
-      "companies": [
-        {
-          "src": "/img/amazon.png",
-          "alt": "Amazon",
-          "name": "Amazon"
-        }
-      ],
-      "files": [
-        {
-          "src": "/files/mentor1.pdf"
-        }
-      ],
       "translations": {
         "en": {
-          "name": "Nodirxon S.",
-          "role": "Android Developer",
-          "experience": "9 yrs. experience",
-          "speciality": "Mobile Engineering",
-          "position": "Senior Android Engineer Amazon, Formerly at EPAM"
+          "name": "Rasulbek Artikboev",
+          "role": "Georgetown University in Qatar",
+          "speciality": "International Affairs",
+          "position": ""
         },
         "ru": {
-          "name": "Нодирксон С.",
-          "role": "Разработчик Android",
-          "experience": "9 лет опыта",
-          "speciality": "Мобильная разработка",
-          "position": "Старший инженер Android в Amazon, ранее работал в EPAM"
+          "name": "Rasulbek Artikboev",
+          "role": "Georgetown University in Qatar",
+          "speciality": "International Affairs",
+          "position": "Senior Android Engineer Amazon, Formerly at EPAM"
         },
         "uz": {
-          "name": "Nodirxon S.",
-          "role": "Android Developer",
-          "experience": "9 yillik tajriba",
-          "speciality": "Mobil muhandislik",
-          "position": "Senior Android muhandisi Amazon, ilgari EPAMda"
+          "name": "Rasulbek Artikboev",
+          "role": "Georgetown University in Qatar",
+          "speciality": "International Affairs",
+          "position": "Senior Android Engineer Amazon, Formerly at EPAM"
         }
+      },
+      "university": {
+        "src": "/img/universities/GUQ.png"
       }
     },
     {
-      "id": "baxtjon-ch",
-      "image": "/img/person-3.jpg",
-      "email": "info@ivybek.com",
+      "id": "shahzoda-hakima",
+      "image": "/img/students/student3.jpg",
       "socials": {
-        "linkedin": "#",
-        "instagram": "#"
+        "instagram": "https://instagram.com/shahzoda_hakima"
       },
-      "companies": [
-        {
-          "src": "/img/amazon.png",
-          "alt": "Amazon",
-          "name": "Amazon"
-        }
-      ],
-      "files": [
-        {
-          "src": "/files/mentor1.pdf"
-        }
-      ],
       "translations": {
         "en": {
-          "name": "Baxtjon Ch.",
-          "role": "Backend Developer",
-          "experience": "8 yrs. experience",
-          "speciality": "Backend Systems",
-          "position": "Backend Engineer Meta, Formerly at Oracle"
+          "name": "Hakimova Shahzoda",
+          "role": "Nanyang Technology University",
+          "speciality": "Chemistry and Biological chemistry",
+          "position": ""
         },
         "ru": {
           "name": "Бакстжон Ч.",
@@ -131,35 +91,23 @@
           "speciality": "Backend Systems",
           "position": "Backend Engineer  Meta, Formerly at Oracle"
         }
+      },
+      "university": {
+        "src": "/img/universities/NTU.png"
       }
     },
     {
-      "id": "murodilla-n",
-      "image": "/img/person-4.jpg",
-      "email": "info@ivybek.com",
+      "id": "umar-a",
+      "image": "/img/students/student4.jpg",
       "socials": {
-        "linkedin": "#",
-        "instagram": "#"
+        "instagram": "https://instagram.com/umarbek_mnk"
       },
-      "companies": [
-        {
-          "src": "/img/facebook.png",
-          "alt": "Facebook",
-          "name": "Facebook"
-        }
-      ],
-      "files": [
-        {
-          "src": "/files/mentor1.pdf"
-        }
-      ],
       "translations": {
         "en": {
-          "name": "Murodilla N.",
-          "role": "iOS Developer",
-          "experience": "10 yrs. experience",
-          "speciality": "iOS Development",
-          "position": "iOS Engineer Google, Formerly at Microsoft"
+          "name": "Umarbek Abdusaidov",
+          "role": "NYUAD",
+          "speciality": "Computer Science",
+          "position": ""
         },
         "ru": {
           "name": "Муродилла Н.",
@@ -175,35 +123,23 @@
           "speciality": "iOS Development",
           "position": "iOS Engineer  Google, Formerly at Microsoft"
         }
+      },
+      "university": {
+        "src": "/img/universities/NYU.png"
       }
     },
     {
       "id": "abdulaziz-z",
-      "image": "/img/person-5.jpg",
-      "email": "info@ivybek.com",
+      "image": "/img/students/student5.jpg",
       "socials": {
-        "linkedin": "#",
-        "instagram": "#"
+        "instagram": "https://instagram.com/nodirbekovich0812"
       },
-      "companies": [
-        {
-          "src": "/img/amazon.png",
-          "alt": "Amazon",
-          "name": "Amazon"
-        }
-      ],
-      "files": [
-        {
-          "src": "/files/mentor1.pdf"
-        }
-      ],
       "translations": {
         "en": {
-          "name": "Abdulaziz Z.",
-          "role": "Software Engineer",
-          "experience": "11 yrs. experience",
-          "speciality": "Product Engineering",
-          "position": "Software Engineer Amazon, Formerly at Meta"
+          "name": "Akmaljon Xolmirzayev ",
+          "role": "CUHK Shenzhen",
+          "speciality": "Finance",
+          "position": ""
         },
         "ru": {
           "name": "Абдулазиз З.",
@@ -219,6 +155,41 @@
           "speciality": "Mahsulot muhandisligi",
           "position": "Dasturiy ta'minot muhandisi  Amazon, ilgari Meta'da"
         }
+      },
+      "university": {
+        "src": "/img/universities/CUHK.png"
+      }
+    },
+    {
+      "id": "ozodbek-e",
+      "image": "/img/students/student8.jpg",
+      "socials": {
+
+      },
+      "translations": {
+        "en": {
+          "name": "Ozodbek Eshboboev ",
+          "role": "Amherst College",
+          "speciality": "Economics & Political science",
+          "position": ""
+        },
+        "ru": {
+          "name": "Абдулазиз З.",
+          "role": "Инженер-программист",
+          "experience": "11 лет опыта",
+          "speciality": "Разработка продуктов",
+          "position": "Инженер-программист в Amazon, ранее работал в Meta"
+        },
+        "uz": {
+          "name": "Abdulaziz Z.",
+          "role": "Dasturiy ta'minot muhandisi",
+          "experience": "11 yillik tajriba",
+          "speciality": "Mahsulot muhandisligi",
+          "position": "Dasturiy ta'minot muhandisi  Amazon, ilgari Meta'da"
+        }
+      },
+      "university": {
+        "src": "/img/universities/Amherst.png"
       }
     }
   ]

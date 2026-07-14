@@ -13,7 +13,7 @@
                         </p>
                         <div ref="buttonsEl" class="buttons">
                             <a
-                                href="https://ivibek.vercel.app"
+                                href="tel:+998555885959"
                                 target="_blank"
                                 class="button"
                                 >{{ currentLocaleData.hero.freeDemo }}</a

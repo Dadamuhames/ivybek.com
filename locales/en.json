@@ -51,7 +51,7 @@
   "about": "About us",
   "resources": "Free resources",
   "contact": "Contact us",
-  "login": "Call Us",
+  "login": "Join Us",
   "hero": {
     "title": "IVYBEK academy: Your Gateway To a Top-50 University",
     "subtitle": "MIT, Imperial, Columbia, Georgetown, NYU, NUS: This is a small chunk of universities our students conquered.",
@@ -125,6 +125,10 @@
         "position": "Software Engineer Amazon, Formerly at Meta"
       }
     ]
+  },
+  "mentors": {
+    "title": "Mentors",
+    "subtitle": "The strongest and most experienced mentors will assist you in obtaining quality education and mastering the field."
   },
   "how": {
     "title": "Our capabilities",

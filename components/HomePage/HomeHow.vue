@@ -54,10 +54,10 @@ const stepIcons = [
 ];
 
 const stepPhotos = [
-  "/img/capa-4.png",
-  "/img/capa-1.png",
-  "/img/capa-3.png",
-  "/img/capa-2.png",
+  "/img/capabilities/1.png",
+  "/img/capabilities/2.png",
+  "/img/capabilities/3.png",
+  "/img/capabilities/4.png",
   "/img/capa-5.png",
 ];
 
