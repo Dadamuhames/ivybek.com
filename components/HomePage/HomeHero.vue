@@ -289,7 +289,7 @@ onMounted(() => {
     }
 
     .buttons {
-        flex-direction: column;
+        grid-template-columns: 1fr;
         gap: 12px;
     }
 
@@ -302,7 +302,7 @@ onMounted(() => {
 
     .hero-image {
         width: min(100%, 420px);
-        transform: translateX(-32px);
+        transform: none;
     }
 
     .grad {

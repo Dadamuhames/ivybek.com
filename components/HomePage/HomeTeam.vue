@@ -30,7 +30,7 @@
                                 decoding="async"
                             />
                         </div>
-                        <div>
+                        <div class="tab-copy">
                             <p class="tab-name">{{ mentor.name }}</p>
                             <p class="tab-role">{{ mentor.role }}</p>
                         </div>
@@ -396,25 +396,30 @@ watch(
 }
 .content-meta {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     gap: 8px;
     margin-bottom: 12px;
 }
 .content-tags {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 8px;
     flex-wrap: wrap;
 }
 .tag {
-    padding: 8px 12px;
+    --meta-chip-size: 38px;
+    padding: 0 12px;
     border-radius: 12px;
     font-size: 14px;
+    line-height: 20px;
     background: #f6f9ff;
     border: 1px solid #e5efff;
     color: var(--dark-blue);
     max-width: 100%;
+    min-height: var(--meta-chip-size);
+    display: inline-flex;
+    align-items: center;
 }
 .content-info {
     margin-bottom: 24px;
@@ -443,27 +448,42 @@ watch(
 }
 .content-socials {
     display: flex;
+    align-items: flex-start;
     gap: 8px;
     flex-wrap: wrap;
+    min-height: 38px;
 }
 .social {
+    --meta-chip-size: 38px;
     background: #f6f9ff;
     border: 1px solid #e5efff;
     color: var(--dark-blue);
-    width: 38px;
-    height: 38px;
+    width: var(--meta-chip-size);
+    height: var(--meta-chip-size);
+    min-width: var(--meta-chip-size);
+    min-height: var(--meta-chip-size);
+    max-width: var(--meta-chip-size);
+    max-height: var(--meta-chip-size);
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     transition: 0.3s;
-    font-size: 22px;
+    font-size: 20px;
+    line-height: 1;
+    padding: 0;
+}
+.social span,
+.social svg {
+    width: 20px;
+    height: 20px;
 }
 .social:hover {
     background: var(--blue);
     color: white;
 }
 .content-address {
+    --meta-chip-size: 38px;
     background: #f6f9ff;
     border: 1px solid #e5efff;
     color: var(--dark-blue);
@@ -472,13 +492,15 @@ watch(
     justify-content: center;
     border-radius: 12px;
     transition: 0.3s;
-    padding: 8px 12px;
+    min-height: var(--meta-chip-size);
+    padding: 0 12px;
 }
 .content-address a {
     display: flex;
     align-items: center;
     gap: 8px;
     font-size: 14px;
+    line-height: 20px;
 }
 .content-address span {
     font-size: 20 px;
@@ -572,6 +594,16 @@ watch(
     .bottom {
         grid-template-columns: 1fr;
         gap: 28px;
+        height: auto;
+    }
+
+    .bottom.tabs-right {
+        grid-template-columns: 1fr;
+    }
+
+    .bottom.tabs-right .tabs,
+    .bottom.tabs-right .content {
+        order: initial;
     }
 
     .tabs {
@@ -592,10 +624,11 @@ watch(
 
     .content {
         grid-template-columns: 1fr;
+        min-width: 0;
     }
 
     .content-img {
-        height: 360px;
+        height: clamp(260px, 92vw, 360px);
     }
 
     .content-socials {
@@ -614,28 +647,76 @@ watch(
     }
 
     .tabs {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding-bottom: 6px;
+        scroll-snap-type: x proximity;
+        -webkit-overflow-scrolling: touch;
     }
 
     .tab {
-        grid-template-columns: 56px 1fr;
+        flex: 0 0 56px;
+        width: 56px;
+        height: 56px;
+        display: grid;
+        grid-template-columns: 56px 0fr;
+        gap: 0;
+        padding: 0;
+        min-width: 0;
+        overflow: hidden;
+        scroll-snap-align: start;
+        transition:
+            flex-basis 0.25s ease,
+            width 0.25s ease,
+            gap 0.25s ease;
+    }
+
+    .tab.active {
+        flex-basis: min(76vw, 280px);
+        width: min(76vw, 280px);
+        grid-template-columns: 56px minmax(0, 1fr);
         gap: 12px;
     }
 
     .tab-img {
+        flex: 0 0 56px;
         width: 56px;
         height: 56px;
+    }
+
+    .tab-copy {
+        min-width: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition:
+            opacity 0.2s ease,
+            visibility 0.2s ease;
+    }
+
+    .tab.active .tab-copy {
+        opacity: 1;
+        visibility: visible;
     }
 
     .tab-name {
         font-size: 18px;
         line-height: 1.3;
         margin-bottom: 4px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .tab-role {
         font-size: 14px;
         line-height: 1.4;
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
     }
 
     .content {
@@ -653,9 +734,21 @@ watch(
         flex-wrap: wrap;
     }
 
+    .content-address,
+    .content-address a,
+    .consultation {
+        width: 100%;
+    }
+
+    .content-address a,
+    .consultation {
+        min-width: 0;
+    }
+
     .tag {
         font-size: 12px;
-        padding: 6px 12px;
+        line-height: 18px;
+        padding: 0 12px;
     }
 
     .name {

@@ -25,7 +25,7 @@
 <script setup>
 const { currentLocaleData } = useLocaleData();
 
-const metricValues = ["15,000,000$", "150+", "19.8X", "60+"];
+const metricValues = ["16,000,000$", "150+", "19.8X", "60+"];
 
 const stats = computed(() => {
     return (

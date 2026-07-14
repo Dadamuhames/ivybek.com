@@ -17,6 +17,20 @@ body {
   font-family: var(--main-font);
   background: #fff;
   color: var(--text-black);
+  overflow-x: clip;
+}
+
+a,
+button,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  overflow-wrap: anywhere;
 }
 
 .container {

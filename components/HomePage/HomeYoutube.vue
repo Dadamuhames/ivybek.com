@@ -119,4 +119,19 @@ const restContent = computed(() => {
         padding: 0px 20px 80px 20px !important;
     }
 }
+
+@media (max-width: 576px) {
+    .container {
+        padding: 0px 16px 72px 16px !important;
+    }
+
+    .items {
+        grid-template-columns: 1fr;
+    }
+
+    .subscribe {
+        width: 100%;
+        justify-content: center;
+    }
+}
 </style>
