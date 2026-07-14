@@ -9,7 +9,7 @@
                 </p>
                 <div class="buttons">
                     <a
-                        href="https://ivibek.vercel.app"
+                        href="https://student.ivybek.com"
                         target="_blank"
                         class="button"
                         >{{ heroData.freeDemo }}</a

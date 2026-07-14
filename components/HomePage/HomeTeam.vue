@@ -141,13 +141,15 @@
                                     </div>
                                 </div>
                             </div>
-                            <button
+                            <a
                                 v-if="showMentorActions"
+                                href="https://student.ivybek.com"
                                 class="consultation"
+                                target="_blank"
                             >
                                 {{ commonData.actions.consultation }}
                                 <Icon name="lucide:arrow-right" />
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>

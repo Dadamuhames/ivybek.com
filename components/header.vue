@@ -120,7 +120,7 @@
                             </li>
                             <li>
                                 <a
-                                    href="https://ivibek.vercel.app"
+                                    href="https://ivybek.com"
                                     target="_blank"
                                     class="button"
                                     >{{ currentLocaleData.login }}</a
@@ -199,7 +199,7 @@
                     </div> -->
 
                     <a
-                        href="https://student.ivibek.com"
+                        href="https://student.ivybek.com"
                         target="_blank"
                         class="mobile-login"
                         @click="closeMobileMenu"
