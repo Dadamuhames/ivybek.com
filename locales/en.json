@@ -230,20 +230,44 @@
     "title": "Frequently Asked Questions",
     "items": [
       {
-        "question": "What is IvyBek?",
-        "answer": "IvyBek is a comprehensive mentorship platform designed to guide ambitious students through the college admissions process, helping them build strong profiles and achieve their educational goals."
+        "question": "What is ivybek?",
+        "answer": "ivybek is an AI-powered education platform and admissions mentorship program based in Tashkent. We're building infrastructure for global talent mobility, a world where ambitious students reach elite universities through strategic guidance, not geographic luck."
       },
       {
-        "question": "How does the mentorship program work?",
-        "answer": "Our mentorship program pairs students with experienced mentors who provide personalized guidance on building a strong profile, crafting compelling essays, and navigating the admissions process."
+        "question": "What makes ivybek different?",
+        "answer": "We don't just handle applications, we make students exceptional, because when a student becomes genuinely exceptional the application takes care of itself. Instead of many shallow activities, we build one deep \"spike,\" real projects, serious intellectual habits, and essays that come from self-knowledge."
       },
       {
-        "question": "What kind of resources do you offer for free?",
-        "answer": "We offer a variety of free resources, including guides on university applications, YouTube podcast links, and other tools to help students prepare for college admissions."
+        "question": "Which universities have ivybek students gotten into?",
+        "answer": "Our alumni have been admitted to MIT, Harvard, Columbia, UChicago, UCL, Imperial, LSE, Georgetown Qatar, CMU Qatar, Amherst, Grinnell, NUS, NTU, HKUST, HKU, CUHK, NYU Abu Dhabi, Duke Kunshan, Toronto, and UBC, among others. That's 60+ Top-50 acceptances so far."
       },
       {
-        "question": "How can I contact your support team?",
-        "answer": "You can contact our support team by filling out the contact form on our website or by reaching out to us directly through the provided contact information."
+        "question": "What has ivybek achieved?",
+        "answer": "More than 150 alumni, over 16 million dollars in full-tuition-plus scholarships (no partials), and students placed from Uzbekistan and ten-plus other countries. Our results are measured against QS, Times Higher Education, and U.S. News rankings."
+      },
+      {
+        "question": "Who are the mentors?",
+        "answer": "Every student works directly with mentors currently studying at leading universities such as Vanderbilt and HKUST, alongside former admission officers who have sat on the other side of the table. They've been through the process and know exactly what it takes."
+      },
+      {
+        "question": "Who is the program for?",
+        "answer": "Ambitious students who are serious about top universities and ready to work hard. Before enrolling, we assess a student's English, mathematics, and problem-solving skills to make sure the program is the right fit."
+      },
+      {
+        "question": "Are lessons online or offline?",
+        "answer": "Lessons run online, with live mentor sessions, so students anywhere in Uzbekistan and abroad can take part."
+      },
+      {
+        "question": "How long does the program last?",
+        "answer": "The Admissions Program runs over roughly 4 months, long enough to build real projects, strengthen the profile, and prepare a full application before deadlines."
+      },
+      {
+        "question": "How does ivybek help with scholarships?",
+        "answer": "We help students target universities with strong financial aid and present their achievements to compete for it. Our alumni have collectively earned over 16 million dollars in full scholarships."
+      },
+      {
+        "question": "How do I get started?",
+        "answer": "Call us on +998 55 588 59 59, message us on Telegram at @ivybek_info, or fill out the contact form on our site. We'll learn about you and walk you through the next steps."
       }
     ]
   },
